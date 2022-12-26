@@ -1,0 +1,27 @@
+{
+  "name": "node-js-application-with-typescript",
+  "version": "1.0.0",
+  "description": "This is a prototype Node-js application which will move a large file from one server to the s3 Using the S3 multipart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umair-Butt980/Node-js-application-with-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umair-Butt980/Node-js-application-with-typescript/issues"
+  },
+  "homepage": "https://github.com/Umair-Butt980/Node-js-application-with-typescript#readme",
+  "dependencies": {
+    "typescipt": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17"
+  }
+}
