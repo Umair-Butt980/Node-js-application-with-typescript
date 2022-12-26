@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Umair-Butt980/Node-js-application-with-typescript#readme",
   "dependencies": {
+    "streaming-s3": "^0.4.5",
     "typescipt": "^1.0.0"
   },
   "devDependencies": {
