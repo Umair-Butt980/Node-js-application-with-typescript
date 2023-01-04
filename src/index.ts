@@ -29,7 +29,7 @@ const app = express();
 app.post('/uploadFile', upload.single('image'), (req, res) => {
     try {
         console.log(req.file,"<=====>")
-        var fStream = fs.createReadStream('./uploads/' + 'connect.png');
+        var fStream = fs.createReadStream('./uploads/' + 'capAmerica.jpg');
         
         let accessKey = "AKIAZ2OL7XHFDX2CFBFV";
         let secretKey= "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"
@@ -38,7 +38,7 @@ app.post('/uploadFile', upload.single('image'), (req, res) => {
             {
                 Bucket: 'file-mover-prototype-bucket',
                 Key: 'image',
-                ContentType: 'image/png'
+                ContentType: 'image/jpg'
             }
             );
             
